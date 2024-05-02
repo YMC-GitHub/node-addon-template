@@ -1,0 +1,28 @@
+{
+  "name": "@yors/fib-js",
+  "version": "0.1.0",
+  "description": "a fibonacci algorithm in js",
+  "keywords": [
+    "@yors",
+    "fib-js"
+  ],
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/node-addon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymc-github/node-addon/issues"
+  },
+  "homepage": "https://github.com/ymc-github/node-addon/blob/main/packages/fib-js#readme",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}

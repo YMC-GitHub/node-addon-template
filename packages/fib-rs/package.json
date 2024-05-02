@@ -1,0 +1,36 @@
+{
+  "name": "@yors/fib-rs",
+  "version": "0.1.0",
+  "description": "a fibonacci algorithm in rust",
+  "keywords": [
+    "@yors",
+    "fib-rs"
+  ],
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/node-addon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymc-github/node-addon/issues"
+  },
+  "homepage": "https://github.com/ymc-github/node-addon/blob/main/packages/fib-rs#readme",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.2"
+  },
+  "napi": {
+    "name": "fibrs"
+  },
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build",
+    "demo": "node demo.js"
+  },
+  "main": "fibrs.node",
+  "files": [
+    "fibrs.node",
+    "index.d.ts"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "workspaces": [
+    "docs",
+    "apps/*",
+    "packages/*"
+  ],
+  "private": true,
+  "dependencies": {
+    "@yors/fib-js": "workspace:*",
+    "@yors/fib-rs": "workspace:*"
+  }
+}
